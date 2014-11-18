@@ -1,2 +1,8 @@
+console.log("hello")
 var statik = require('statik');
-statik(process.env.PORT || 1337);
+console.log("poop")
+console.log(statik)
+statik({
+    port: 3000,
+    root: "./public"
+});
