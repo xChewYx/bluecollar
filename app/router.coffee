@@ -1,19 +1,24 @@
-navbar = require 'views/navbar'
-user = require 'models/user'
+# navbar = require 'views/navbar'
+# user = require 'models/user'
+MainPage = require 'views/main_page'
 
-Router = Backbone.Router.extend
+module.exports = class Router extends Backbone.Router
 
   initialize: () ->
 
-    @navbar = new navbar
-      el: $('.root-view')
-      model: new user
-      router: @
+
+    # @navbar = new navbar
+    #   el: $('.root-view')
+    #   model: new user
+    #   router: @
 
   routes:
-    ''            : 'menu_1'
-    'menu_1'      : 'menu_1'
-    'menu_2'      : 'menu_2'
-    'menu_3'      : 'menu_3'
+    ''            : 'renderMain'
+    # 'menu_1'      : 'menu_1'
+    # 'menu_2'      : 'menu_2'
+    # 'menu_3'      : 'menu_3'
 
-module.exports = Router
+  renderMain: () ->
+    mainPage = new MainPage()
+    mainPage.render()
+
