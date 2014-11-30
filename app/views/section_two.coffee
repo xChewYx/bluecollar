@@ -13,7 +13,7 @@ module.exports = class SectionOne extends Backbone.View
       testimonial: "We manufacture our products with the utmost care and dedication, we check carefully the process from the raw materials to your home."
       name: "Mark Wright"
       title: "Founder & CEO" 
-      image:"http://placehold.it/100x100"
+      image:"https://placehold.it/100x100"
     })
     @resell = new Resell({el: @el})
 
