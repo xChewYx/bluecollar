@@ -22,4 +22,11 @@ Thumbs.db
 bower_components/
 node_modules/
 tmp/
+#ignore everything in public directory
 public/
+
+#Except these files
+!public/styles/font-awesome.min.css
+!public/js/html5.js
+!public/js/modernizr.js
+!public/fonts
