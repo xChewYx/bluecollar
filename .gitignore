@@ -10,6 +10,9 @@
 *~
 *.sass-cache
 
+
+!.gitignore
+
 # OS or Editor folders
 .DS_Store
 .cache
@@ -23,12 +26,16 @@ bower_components/
 node_modules/
 tmp/
 
-#ignore everything in public directory
-public/
 
-#Except these files
-!.gitignore
-!public/styles/font-awesome
-!public/js/html5
-!public/js/modernizr
+public/*
+
+!public/styles
+public/styles/*
+!public/styles/font-awesome.min.css
+
+!public/js
+public/js/*
+!public/js/html5.js
+!public/js/modernizr.js
+
 !public/fonts
