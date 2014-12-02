@@ -14,4 +14,3 @@ exports.config =
   plugins: 
     autoReload: 
       enabled: false
-    off:['auto-reload-brunch']
