@@ -37,6 +37,6 @@
     "karma-mocha": "~0.1.0"
   },
   "scripts" :{
-    "postinstall": "./node_modules/.bin/bower install && brunch build --production"
+    "postinstall": "./node_modules/.bin/bower install && brunch build --production --optimize"
   }
 }
