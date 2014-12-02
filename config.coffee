@@ -12,10 +12,10 @@ exports.config =
     templates:
       joinTo: 'js/templates.js'
 
-  overrides:
-    production:
-      optimize: true
-      sourceMaps: false
+  # overrides:
+  #   production:
+  #     optimize: true
+  #     sourceMaps: false
   plugins: 
     autoReload: 
       enabled: false
