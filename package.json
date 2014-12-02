@@ -12,7 +12,7 @@
     "css-brunch": "1.6.0",
     "uglify-js-brunch": "1.7.2",
     "clean-css-brunch": "1.6.0",
-    "auto-reload-brunch": "1.6.5",
+    // "auto-reload-brunch": "1.6.5",
     "coffee-script": "~1.6.3",
     "brunch": "1.7.6",
     "coffee-script-brunch": "~1.7.2",
