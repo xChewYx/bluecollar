@@ -39,3 +39,5 @@ public/js/*
 !public/js/modernizr.js
 
 !public/fonts
+
+!public\images
