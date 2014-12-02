@@ -15,12 +15,12 @@ module.exports = class Footer extends Backbone.View
 
   facebook:() ->
     fjs = document.getElementsByTagName('script')[0]
-    if (document.getElementById('facebook-jssdk')) 
-      return
-    js = document.createElement('script')
-    js.id = 'facebook-jssdk'
-    js.src = "//connect.facebook.net/en_EN/all.js#xfbml=1&appId=183501305061516"
-    fjs.parentNode.insertBefore(js, fjs)
+    # if (document.getElementById('facebook-jssdk')) 
+    #   return
+    # js = document.createElement('script')
+    # js.id = 'facebook-jssdk'
+    # js.src = "//connect.facebook.net/en_EN/all.js#xfbml=1&appId=183501305061516"
+    # fjs.parentNode.insertBefore(js, fjs)
 
   twitter: () ->
     fjs=document.getElementsByTagName('script')[0]
