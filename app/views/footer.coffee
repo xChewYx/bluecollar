@@ -24,17 +24,17 @@ module.exports = class Footer extends Backbone.View
 
   twitter: () ->
     fjs=document.getElementsByTagName('script')[0]
-    p= if /^http:/.test(document.location) then 'http' else'https'
-    if(!document.getElementById('twitter-wjs'))
-      js=document.createElement('script')
-      js.id='twitter-wjs'
-      js.src=p+'://platform.twitter.com/widgets.js'
-      fjs.parentNode.insertBefore(js,fjs)
+    # p= if /^http:/.test(document.location) then 'http' else'https'
+    # if(!document.getElementById('twitter-wjs'))
+    #   js=document.createElement('script')
+    #   js.id='twitter-wjs'
+    #   js.src=p+'://platform.twitter.com/widgets.js'
+    #   fjs.parentNode.insertBefore(js,fjs)
 
   googlePlus: () ->
     po = document.createElement('script'); 
-    po.type = 'text/javascript'; 
-    po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    s = document.getElementsByTagName('script')[0]; 
-    s.parentNode.insertBefore(po, s);
+    # po.type = 'text/javascript'; 
+    # po.async = true;
+    # po.src = 'https://apis.google.com/js/platform.js';
+    # s = document.getElementsByTagName('script')[0]; 
+    # s.parentNode.insertBefore(po, s);
