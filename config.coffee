@@ -16,7 +16,7 @@ exports.config =
     production:
       optimize: true
       sourceMaps: false
-      plugins: 
-        autoReload: 
-          enabled: false
-        off:['auto-reload-brunch']
+  plugins: 
+    autoReload: 
+      enabled: false
+    off:['auto-reload-brunch']
